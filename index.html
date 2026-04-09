@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Ali Kumru Portfolyo</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<header>
+
+<h1 id="daktilo"></h1>
+
+<button onclick="temaDegistir()" class="temaBtn">
+Tema Değiştir
+</button>
+
+</header>
+
+
+<section class="hakkimda">
+
+<h2>Hakkımda</h2>
+
+<p>
+
+Ben Ali Kumru. Programlama, geliştirme ve web tasarımı öğreniyorum.
+HTML, CSS ve JavaScript kullanarak projeler geliştiriyorum.
+
+</p>
+
+</section>
+
+
+
+<section class="yetenekler">
+
+<h2>Yetenekler</h2>
+
+
+<div class="yetenek">
+
+<p>HTML</p>
+
+<div class="bar">
+<div class="dolgu html"></div>
+</div>
+
+</div>
+
+
+
+<div class="yetenek">
+
+<p>CSS</p>
+
+<div class="bar">
+<div class="dolgu css"></div>
+</div>
+
+</div>
+
+
+
+<div class="yetenek">
+
+<p>JavaScript</p>
+
+<div class="bar">
+<div class="dolgu js"></div>
+</div>
+
+</div>
+
+</section>
+
+
+
+<section class="projeler">
+
+<h2>Projeler</h2>
+
+<div class="filtreButonlari">
+
+<button onclick="filtrele('hepsi')">Hepsini Göster</button>
+<button onclick="filtrele('web')">Web</button>
+<button onclick="filtrele('mobil')">Mobil</button>
+
+</div>
+
+
+<div id="projeAlani" class="projeGrid"></div>
+
+</section>
+
+
+
+<section class="iletisim">
+
+<h2>İletişim</h2>
+
+<p>Email : alikvmru@gmail.com</p>
+
+<p>GitHub : github.com/alikumru</p>
+
+</section>
+
+
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
