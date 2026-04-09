@@ -7,16 +7,12 @@ color:white;
 
 }
 
-
-
 header{
 
 text-align:center;
 padding:40px;
 
 }
-
-
 
 .temaBtn{
 
@@ -27,8 +23,6 @@ cursor:pointer;
 
 }
 
-
-
 section{
 
 max-width:900px;
@@ -38,6 +32,27 @@ padding:40px;
 }
 
 
+/* ORTAK KART TASARIMI */
+
+.kartAlan{
+
+background:white;
+color:black;
+padding:30px;
+border-radius:15px;
+box-shadow:0 5px 15px rgba(0,0,0,0.2);
+
+}
+
+
+
+/* YETENEK BARLARI */
+
+.yetenek{
+
+margin-bottom:20px;
+
+}
 
 .bar{
 
@@ -47,16 +62,12 @@ border-radius:20px;
 
 }
 
-
-
 .dolgu{
 
 height:20px;
 border-radius:20px;
 
 }
-
-
 
 .html{
 
@@ -65,16 +76,12 @@ background:#ff6b6b;
 
 }
 
-
-
 .css{
 
 width:80%;
 background:#4ecdc4;
 
 }
-
-
 
 .js{
 
@@ -85,13 +92,13 @@ background:#ffe66d;
 
 
 
+/* PROJELER */
+
 .filtreButonlari{
 
 margin-bottom:20px;
 
 }
-
-
 
 .filtreButonlari button{
 
@@ -103,8 +110,6 @@ cursor:pointer;
 
 }
 
-
-
 .projeGrid{
 
 display:grid;
@@ -112,8 +117,6 @@ grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
 gap:20px;
 
 }
-
-
 
 .kart{
 
@@ -126,6 +129,8 @@ box-shadow:0 5px 15px rgba(0,0,0,0.2);
 }
 
 
+
+/* DARK MODE */
 
 .dark{
 
